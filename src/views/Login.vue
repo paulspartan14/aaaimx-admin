@@ -6,10 +6,8 @@
   >
     <div class="m-grid__item m-grid__item--fluid m-login__wrapper">
       <div class="m-login__container">
-        <div class="m-login__logo">
-          <a href="#">
-            <img src="assets/app/media/img//logos/logo-1.png" />
-          </a>
+        <div class="m-login__logo" style="margin-bottom: 0%;">
+            <img width="200px" src="assets/app/media/img/logos/aaaimx-transparent.png" />
         </div>
         <div class="m-login__signin">
           <div class="m-login__head">
