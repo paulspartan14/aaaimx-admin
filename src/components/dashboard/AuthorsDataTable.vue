@@ -35,44 +35,19 @@
                               <span class="m-nav__section-text">Quick Actions</span>
                             </li>
                             <li class="m-nav__item">
-                              <a href class="m-nav__link">
-                                <i class="m-nav__link-icon flaticon-share"></i>
-                                <span class="m-nav__link-text">Create Post</span>
+                              <a href class="m-nav__link" @click="update()">
+                                <i class="m-nav__link-icon flaticon-refresh"></i>
+                                <span class="m-nav__link-text">Refresh Table</span>
                               </a>
                             </li>
                             <li class="m-nav__item">
                               <a href class="m-nav__link">
-                                <i class="m-nav__link-icon flaticon-chat-1"></i>
-                                <span class="m-nav__link-text">Send Messages</span>
-                              </a>
-                            </li>
-                            <li class="m-nav__item">
-                              <a href class="m-nav__link">
-                                <i class="m-nav__link-icon flaticon-multimedia-2"></i>
-                                <span class="m-nav__link-text">Upload File</span>
+                                <i class="m-nav__link-icon la la-print"></i>
+                                <span class="m-nav__link-text">Generate Report</span>
                               </a>
                             </li>
                             <li class="m-nav__section">
                               <span class="m-nav__section-text">Useful Links</span>
-                            </li>
-                            <li class="m-nav__item">
-                              <a href class="m-nav__link">
-                                <i class="m-nav__link-icon flaticon-info"></i>
-                                <span class="m-nav__link-text">FAQ</span>
-                              </a>
-                            </li>
-                            <li class="m-nav__item">
-                              <a href class="m-nav__link">
-                                <i class="m-nav__link-icon flaticon-lifebuoy"></i>
-                                <span class="m-nav__link-text">Support</span>
-                              </a>
-                            </li>
-                            <li class="m-nav__separator m-nav__separator--fit m--hide"></li>
-                            <li class="m-nav__item m--hide">
-                              <a
-                                href="#"
-                                class="btn btn-outline-danger m-btn m-btn--pill m-btn--wide btn-sm"
-                              >Submit</a>
                             </li>
                           </ul>
                         </div>

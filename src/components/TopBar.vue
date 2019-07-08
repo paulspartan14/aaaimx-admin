@@ -255,7 +255,7 @@ export default {
       showMethod: "fadeIn",
       hideMethod: "fadeOut"
     };
-    toastr.error("See you soon...", "Goobye, Admin!");
+    toastr.error("See you soon...", "Goodbye, Admin!");
     }
   }
 };

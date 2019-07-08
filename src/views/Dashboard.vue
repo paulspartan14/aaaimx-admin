@@ -33,7 +33,7 @@
         <div class="m-portlet">
           <div class="m-portlet__body m-portlet__body--no-padding">
             <div class="row m-row--no-padding m-row--col-separator-xl">
-              <div class="col-xl-4">
+              <div class="col-xl-6">
                 <!--begin:: Widgets/Stats2-1 -->
                 <div class="m-widget1">
                   <div class="m-widget1__item">
@@ -61,7 +61,7 @@
                   <div class="m-widget1__item">
                     <div class="row m-row--no-padding align-items-center">
                       <div class="col">
-                        <h3 class="m-widget1__title">Visits</h3>
+                        <h3 class="m-widget1__title">Website Visits</h3>
                         <span class="m-widget1__desc">System bugs and issues</span>
                       </div>
                       <div class="col m--align-right">
@@ -72,20 +72,7 @@
                 </div>
                 <!--end:: Widgets/Stats2-1 -->
               </div>
-              <div class="col-xl-4">
-                <!--begin:: Widgets/Daily Sales-->
-                <div class="m-widget14">
-                  <div class="m-widget14__header m--margin-bottom-30">
-                    <h3 class="m-widget14__title">Daily Visits</h3>
-                    <span class="m-widget14__desc">Check out each collumn for more details</span>
-                  </div>
-                  <div class="m-widget14__chart" style="height:120px;">
-                    <canvas id="m_chart_daily_sales"></canvas>
-                  </div>
-                </div>
-                <!--end:: Widgets/Daily Sales-->
-              </div>
-              <div class="col-xl-4">
+              <div class="col-xl-6">
                 <!--begin:: Widgets/Profit Share-->
                 <div class="m-widget14">
                   <div class="m-widget14__header">
@@ -106,11 +93,11 @@
                       <div class="m-widget14__legends">
                         <div class="m-widget14__legend">
                           <span class="m-widget14__legend-bullet m--bg-accent"></span>
-                          <span class="m-widget14__legend-text">37% Sport Tickets</span>
+                          <span class="m-widget14__legend-text">37% Ponencias</span>
                         </div>
                         <div class="m-widget14__legend">
                           <span class="m-widget14__legend-bullet m--bg-warning"></span>
-                          <span class="m-widget14__legend-text">47% Business Events</span>
+                          <span class="m-widget14__legend-text">47% Tesis</span>
                         </div>
                         <div class="m-widget14__legend">
                           <span class="m-widget14__legend-bullet m--bg-brand"></span>
@@ -168,7 +155,8 @@ export default {
       showMethod: "fadeIn",
       hideMethod: "fadeOut"
     };
-    toastr.success("", "Wellcome, Administrator");
+    toastr.success("Latest updates ready", "Welcome, Admin");
+    $(".m_datatable").mDatatable("reload");
   }
 };
 </script>
